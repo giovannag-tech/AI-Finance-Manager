@@ -1,158 +1,136 @@
 # 💰 Gerente de Finanças com IA
 
-Sistema web desenvolvido em **Python + Streamlit + PostgreSQL** para gerenciamento financeiro pessoal, com dashboard interativo, geração de relatórios, Machine Learning para previsão de receitas e assistente financeiro inteligente.
+Sistema web desenvolvido em **Python + Streamlit + PostgreSQL + Machine Learning** para gerenciamento financeiro pessoal, com dashboard interativo, relatórios, metas financeiras, previsões de receitas utilizando IA e assistente financeiro.
 
 ---
 
-# 🚀 Funcionalidades
+# 🚀 Demonstração
 
-✅ Login de usuário
+## 🔑 Login de teste
 
-✅ Cadastro de Receitas e Despesas
+**Usuário:** `admin`
 
-✅ Edição de movimentações
-
-✅ Exclusão de movimentações
-
-✅ Dashboard Financeiro
-
-✅ Filtros por mês e categoria
-
-✅ Indicadores financeiros
-
-✅ Análise automática da saúde financeira
-
-✅ Fluxo de caixa acumulado
-
-✅ Relatórios em Excel
-
-✅ Relatórios em PDF
-
-✅ Metas Financeiras
-
-✅ Assistente Financeiro com IA
-
-✅ Previsão de Receitas utilizando Machine Learning
+**Senha:** `1234`
 
 ---
 
-# 🛠 Tecnologias
+# ✨ Funcionalidades
+
+- ✅ Login de usuário
+- ✅ Cadastro de Receitas e Despesas
+- ✅ Edição de movimentações
+- ✅ Exclusão de movimentações
+- ✅ Dashboard Financeiro
+- ✅ Indicadores Financeiros
+- ✅ Gráficos Interativos
+- ✅ Fluxo de Caixa
+- ✅ Filtros por mês e categoria
+- ✅ Exportação para Excel
+- ✅ Exportação para PDF
+- ✅ Assistente Financeiro com IA
+- ✅ Metas Financeiras
+- ✅ Previsão Financeira utilizando Machine Learning
+- ✅ Banco de Dados PostgreSQL
+
+---
+
+# 🛠 Tecnologias Utilizadas
 
 - Python
 - Streamlit
 - PostgreSQL
 - Pandas
 - Plotly
+- SQLAlchemy
 - Scikit-Learn
-- ReportLab
 - OpenPyXL
+- ReportLab
 
 ---
 
-# 📊 Telas do Sistema
+# 📸 Telas do Sistema
 
-- 🔐 Login
-- 📊 Dashboard Financeiro
-- ➕ Nova Movimentação
-- 📑 Relatórios
-- 🎯 Metas Financeiras
-- 🤖 Assistente IA
-- 📈 Previsões Financeiras
+## 🔐 Login
+
+![Login](dashboard/images/telalogin.png)
 
 ---
 
-# 🧠 Machine Learning
+## 📊 Dashboard Financeiro
 
-O sistema utiliza um modelo de **Regressão Linear** da biblioteca **Scikit-Learn** para realizar previsões de receitas futuras com base no histórico financeiro cadastrado pelo usuário.
+![Dashboard](dashboard/images/dashboardprincipal.png)
 
 ---
 
-# 📁 Estrutura do Projeto
+## 💵 Cadastro de Movimentações
 
-```
-AI-Finance-Manager/
+![Cadastro](dashboard/images/cadastromovimentacao.png)
 
-├── dashboard/
-│   ├── app.py
-│   ├── dashboard.py
-│   ├── cadastro.py
-│   ├── relatorios.py
-│   ├── assistente_ia.py
-│   ├── metas.py
-│   └── previsoes.py
+---
+
+## 📄 Relatórios
+
+![Relatórios](dashboard/images/relatorio.png)
+
+---
+
+## 🎯 Metas Financeiras
+
+![Metas](dashboard/images/metasfinanceiras.png)
+
+---
+
+## 🤖 Assistente Financeiro IA
+
+![Assistente IA](dashboard/images/assistentefinanceiroIA.png)
+
+---
+
+## 📈 Previsões Financeiras
+
+![Previsões](dashboard/images/previsoesfinanceiras1.png)
+
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+AI-Finance-Manager
 │
-├── src/
-│   ├── conexao.py
-│   └── movimentacoes.py
-│
-├── data/
-│   └── dados_financeiros.csv
-│
+├── dashboard
+├── data
+├── src
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
-# ▶️ Como executar
+# ⚙️ Como executar o projeto
 
-Instale as dependências:
+### Clone o repositório
+
+```bash
+git clone https://github.com/giovannag-tech/AI-Finance-Manager.git
+```
+
+### Entre na pasta do projeto
+
+```bash
+cd AI-Finance-Manager
+```
+
+### Instale as dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Depois execute:
+### Execute o sistema
 
 ```bash
-python -m streamlit run dashboard/app.py
+streamlit run dashboard/app.py
 ```
-
----
-
-# 🔐 Acesso de Demonstração
-
-Para facilitar os testes do projeto, utilize:
-
-**E-mail**
-
-```
-admin@email.com
-```
-
-**Senha**
-
-```
-123456
-```
-
----
-
-# 📷 Demonstração
-
-Adicione aqui capturas de tela do sistema:
-
-- Login
-- Dashboard
-- Cadastro
-- Relatórios
-- Metas
-- Assistente IA
-- Previsões
-
----
-
-# 💡 Objetivo
-
-Este projeto foi desenvolvido para demonstrar conhecimentos em:
-
-- Desenvolvimento de aplicações Python
-- Banco de Dados PostgreSQL
-- Manipulação de dados com Pandas
-- Visualização de dados
-- CRUD completo
-- Machine Learning
-- Geração de relatórios
-- Desenvolvimento de dashboards interativos
 
 ---
 
@@ -160,8 +138,14 @@ Este projeto foi desenvolvido para demonstrar conhecimentos em:
 
 **Giovanna Gomes Oliveira**
 
-LinkedIn:
+### GitHub
+
+https://github.com/giovannag-tech
+
+### LinkedIn
+
 https://www.linkedin.com/in/giovannatecnologiadados23
 
-GitHub:
-https://github.com/giovannag-tech
+---
+
+⭐ Se este projeto foi útil ou interessante, deixe uma estrela no repositório!
