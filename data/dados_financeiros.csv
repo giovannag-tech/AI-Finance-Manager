@@ -1,0 +1,13 @@
+data,tipo,categoria,descricao,valor,forma_pagamento
+2026-01-05,Receita,Vendas,Venda de produto,3500,Pix
+2026-01-10,Despesa,Aluguel,Pagamento aluguel,1200,Boleto
+2026-01-15,Despesa,Marketing,Anúncios online,500,Cartão
+2026-01-20,Receita,Serviços,Consultoria,2200,Pix
+2026-02-03,Receita,Vendas,Venda de produto,4200,Pix
+2026-02-08,Despesa,Fornecedores,Compra de materiais,1500,Boleto
+2026-02-14,Despesa,Marketing,Campanha Instagram,700,Cartão
+2026-02-22,Receita,Serviços,Projeto entregue,3000,Transferência
+2026-03-02,Receita,Vendas,Venda de produto,5000,Pix
+2026-03-09,Despesa,Aluguel,Pagamento aluguel,1200,Boleto
+2026-03-16,Despesa,Salários,Pagamento equipe,2500,Transferência
+2026-03-25,Receita,Serviços,Consultoria mensal,2800,Pix

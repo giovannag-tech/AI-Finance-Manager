@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+
+.env
+venv/
+.venv/
+
+*.db
+*.sqlite3
+
+.DS_Store
+
+relatorio_financeiro.xlsx
+relatorio_financeiro.pdf
+
+movimentacoes_old.py
