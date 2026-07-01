@@ -1,50 +1,117 @@
 # 💰 Gerente de Finanças com IA
 
-Sistema web desenvolvido em **Python + Streamlit + PostgreSQL + Machine Learning** para gerenciamento financeiro pessoal, com dashboard interativo, relatórios, metas financeiras, previsões de receitas utilizando IA e assistente financeiro.
+Sistema web desenvolvido em **Python + Streamlit + PostgreSQL** para gerenciamento financeiro pessoal, com recursos de Inteligência Artificial, Machine Learning, metas financeiras, geração de relatórios e dashboard interativo.
 
 ---
 
-# 🚀 Demonstração
-
-## 🔑 Login de teste
-
-**Usuário:** `admin`
-
-**Senha:** `1234`
-
----
-
-# ✨ Funcionalidades
+# 🚀 Funcionalidades
 
 - ✅ Login de usuário
 - ✅ Cadastro de Receitas e Despesas
 - ✅ Edição de movimentações
 - ✅ Exclusão de movimentações
 - ✅ Dashboard Financeiro
-- ✅ Indicadores Financeiros
-- ✅ Gráficos Interativos
-- ✅ Fluxo de Caixa
 - ✅ Filtros por mês e categoria
+- ✅ Indicadores financeiros
+- ✅ Análise automática da saúde financeira
+- ✅ Fluxo de caixa acumulado
+- ✅ Metas Financeiras
+- ✅ Assistente Financeiro com IA
+- ✅ Previsão de receitas utilizando Machine Learning
 - ✅ Exportação para Excel
 - ✅ Exportação para PDF
-- ✅ Assistente Financeiro com IA
-- ✅ Metas Financeiras
-- ✅ Previsão Financeira utilizando Machine Learning
 - ✅ Banco de Dados PostgreSQL
 
 ---
 
-# 🛠 Tecnologias Utilizadas
+# 🧠 Tecnologias Utilizadas
 
 - Python
 - Streamlit
 - PostgreSQL
 - Pandas
 - Plotly
-- SQLAlchemy
 - Scikit-Learn
 - OpenPyXL
+- Psycopg2
 - ReportLab
+
+---
+
+# 🔐 Login de Teste
+
+Para facilitar a demonstração do sistema:
+
+**Usuário**
+
+```
+admin
+```
+
+**Senha**
+
+```
+123456
+```
+
+---
+
+# 📂 Estrutura do Projeto
+
+```
+AI-Finance-Manager
+│
+├── dashboard/
+│   ├── app.py
+│   ├── dashboard.py
+│   ├── cadastro.py
+│   ├── relatorios.py
+│   ├── metas.py
+│   ├── previsoes.py
+│   ├── assistente_ia.py
+│   ├── style.py
+│   └── images/
+│
+├── src/
+│   ├── conexao.py
+│   ├── tratamento_dados.py
+│   ├── metas_db.py
+│   └── teste_conexao.py
+│
+├── data/
+│   └── dados_financeiros.csv
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# ⚙️ Como executar
+
+Clone o repositório
+
+```bash
+git clone https://github.com/giovannag-tech/AI-Finance-Manager.git
+```
+
+Entre na pasta
+
+```bash
+cd AI-Finance-Manager
+```
+
+Instale as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+Execute a aplicação
+
+```bash
+streamlit run dashboard/app.py
+```
 
 ---
 
@@ -64,7 +131,7 @@ Sistema web desenvolvido em **Python + Streamlit + PostgreSQL + Machine Learning
 
 ## 💵 Cadastro de Movimentações
 
-![Cadastro](dashboard/images/cadastromovimentacao.png)
+![Cadastro](dashboard/images/movimentacoesfinanceiras1.png)
 
 ---
 
@@ -82,7 +149,7 @@ Sistema web desenvolvido em **Python + Streamlit + PostgreSQL + Machine Learning
 
 ## 🤖 Assistente Financeiro IA
 
-![Assistente IA](dashboard/images/assistentefinanceiroIA.png)
+![Assistente](dashboard/images/assistentefinanceiroIA.png)
 
 ---
 
@@ -92,45 +159,38 @@ Sistema web desenvolvido em **Python + Streamlit + PostgreSQL + Machine Learning
 
 ---
 
-# 📂 Estrutura do Projeto
+# 📊 Inteligência Artificial
 
-```text
-AI-Finance-Manager
-│
-├── dashboard
-├── data
-├── src
-├── requirements.txt
-└── README.md
-```
+O sistema possui um assistente financeiro integrado que interpreta perguntas do usuário e fornece recomendações sobre receitas, despesas, investimentos e organização financeira.
+
+Também conta com um modelo de Machine Learning utilizando **Linear Regression**, capaz de prever receitas futuras com base no histórico financeiro cadastrado.
 
 ---
 
-# ⚙️ Como executar o projeto
+# 📈 Relatórios
 
-### Clone o repositório
+O sistema permite exportar:
 
-```bash
-git clone https://github.com/giovannag-tech/AI-Finance-Manager.git
-```
+- 📄 Relatórios em PDF
+- 📊 Relatórios em Excel
 
-### Entre na pasta do projeto
+facilitando o compartilhamento e análise dos dados financeiros.
 
-```bash
-cd AI-Finance-Manager
-```
+---
 
-### Instale as dependências
+# 🎯 Objetivo
 
-```bash
-pip install -r requirements.txt
-```
+Este projeto foi desenvolvido para demonstrar conhecimentos em:
 
-### Execute o sistema
-
-```bash
-streamlit run dashboard/app.py
-```
+- Desenvolvimento Web com Python
+- Streamlit
+- PostgreSQL
+- Manipulação de Dados
+- Machine Learning
+- Inteligência Artificial
+- Visualização de Dados
+- Organização de Projetos
+- Boas práticas de desenvolvimento
 
 ---
 
@@ -138,14 +198,8 @@ streamlit run dashboard/app.py
 
 **Giovanna Gomes Oliveira**
 
-### GitHub
-
+GitHub:
 https://github.com/giovannag-tech
 
-### LinkedIn
-
+LinkedIn:
 https://www.linkedin.com/in/giovannatecnologiadados23
-
----
-
-⭐ Se este projeto foi útil ou interessante, deixe uma estrela no repositório!
